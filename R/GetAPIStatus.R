@@ -2,6 +2,7 @@
 #' @description Some placeholder
 #' @export
 #' @return A message containing the API status
+#' @import httr
 #' @examples
 #' \dontrun{
 #' GetAPIStatus()

@@ -19,7 +19,7 @@ Some placeholder
 }
 \examples{
 \dontrun{
-GetAccountHoldings (TibbleOfKeys, xxxxxxxx)
+GetAccountHoldings (APIKeys, xxxxxxxx)
 }
 
 

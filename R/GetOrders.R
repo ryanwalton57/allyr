@@ -8,7 +8,7 @@
 #' @import tibble
 #' @examples
 #' \dontrun{
-#' GetQuotes(APIKeys, xxxxxxxx)
+#' GetOrders(APIKeys, xxxxxxxx)
 #' }
 #'
 

@@ -2,17 +2,18 @@
 #' @description Some placeholder
 #' @export
 #' @return A tibble containing the symbol, with last, bid, and ask prices.
-#' @import ROAuth
 #' @import tibble
+#' @import xml2
+#' @import httr
 #' @examples
 #' \dontrun{
-#' GetQuotes(APIKeys, "XYZ")
+#' GetMarketTime()
 #' }
 #'
 
 GetMarketTime <- function(){
 
-  time <- httr::GET("https://api.tradeking.com/v1/market/clock.xml")
+  time <- GET("https://api.tradeking.com/v1/market/clock.xml")
 
   if (time$status_code != 200) {
     stop("The API is down for maintenance. Please try again later.")

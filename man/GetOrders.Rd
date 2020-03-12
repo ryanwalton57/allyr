@@ -19,7 +19,7 @@ Some placeholder
 }
 \examples{
 \dontrun{
-GetQuotes(APIKeys, xxxxxxxx)
+GetOrders(APIKeys, xxxxxxxx)
 }
 
 }

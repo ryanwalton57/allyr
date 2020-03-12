@@ -14,7 +14,7 @@ Some placeholder
 }
 \examples{
 \dontrun{
-GetQuotes(APIKeys, "XYZ")
+GetMarketTime()
 }
 
 }

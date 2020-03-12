@@ -9,7 +9,7 @@
 #' @import tibble
 #' @examples
 #' \dontrun{
-#' GetAccountHoldings (TibbleOfKeys, xxxxxxxx)
+#' GetAccountHoldings (APIKeys, xxxxxxxx)
 #' }
 #'
 #'
