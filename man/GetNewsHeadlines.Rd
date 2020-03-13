@@ -2,7 +2,7 @@
 % Please edit documentation in R/GetNewsHeadlines.R
 \name{GetNewsHeadlines}
 \alias{GetNewsHeadlines}
-\title{Returns news articles based on symbol and dates}
+\title{GetNewsHeadlines}
 \usage{
 GetNewsHeadlines(APIKeys, symbol, maxhits, enddate)
 }
@@ -19,7 +19,7 @@ GetNewsHeadlines(APIKeys, symbol, maxhits, enddate)
 A tibble containing news headlines from todays date to \code{enddate}
 }
 \description{
-Some placeholder
+Returns news articles based on symbol and dates
 }
 \examples{
 \dontrun{

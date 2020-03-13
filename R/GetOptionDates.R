@@ -1,5 +1,5 @@
-#' @title Returns expiration dates on a single underlying
-#' @description Some placeholder
+#' @title GetOptionDates
+#' @description Returns expiration dates on a single underlying
 #' @export
 #' @param APIKeys A vector containing API keys (order: cKey, cSecret, oKey, oSecret).
 #' @param symbol The underlying's symbol
@@ -49,7 +49,7 @@ GetOptionDates <- function(APIKeys, symbol){
 
   for (i in 1:length(dates)) {
 
-    daysToExp <- c(daysToExp, as.double(newDates[i] - today))
+    daysToExp <- c(daysToExp, as.double(dates[i] - today))
 
   }
 

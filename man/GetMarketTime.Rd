@@ -2,7 +2,7 @@
 % Please edit documentation in R/GetMarketTime.R
 \name{GetMarketTime}
 \alias{GetMarketTime}
-\title{Returns the current market time}
+\title{GetMarketTime}
 \usage{
 GetMarketTime()
 }
@@ -10,7 +10,7 @@ GetMarketTime()
 A tibble containing the symbol, with last, bid, and ask prices.
 }
 \description{
-Some placeholder
+Returns the current market time
 }
 \examples{
 \dontrun{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/GetQuotes.R
 \name{GetQuote}
 \alias{GetQuote}
-\title{Returns market quote (last, bid, ask) on a single stock}
+\title{GetQuote}
 \usage{
 GetQuote(APIKeys, symbol)
 }
@@ -15,7 +15,7 @@ GetQuote(APIKeys, symbol)
 A tibble containing the symbol, with last, bid, and ask prices.
 }
 \description{
-Some placeholder
+Returns market quote (last, bid, ask) on a single stock
 }
 \examples{
 \dontrun{

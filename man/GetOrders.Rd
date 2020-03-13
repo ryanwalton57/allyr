@@ -2,7 +2,7 @@
 % Please edit documentation in R/GetOrders.R
 \name{GetOrders}
 \alias{GetOrders}
-\title{Returns recent orders}
+\title{GetOrders}
 \usage{
 GetOrders(APIKeys, acctNum)
 }
@@ -15,7 +15,7 @@ GetOrders(APIKeys, acctNum)
 A tibble containing information on recent orders
 }
 \description{
-Some placeholder
+Returns recent orders
 }
 \examples{
 \dontrun{

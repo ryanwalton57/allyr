@@ -2,7 +2,7 @@
 % Please edit documentation in R/GetOptionDates.R
 \name{GetOptionDates}
 \alias{GetOptionDates}
-\title{Returns expiration dates on a single underlying}
+\title{GetOptionDates}
 \usage{
 GetOptionDates(APIKeys, symbol)
 }
@@ -15,7 +15,7 @@ GetOptionDates(APIKeys, symbol)
 A tibble containing available option expiration dates and days to expiration
 }
 \description{
-Some placeholder
+Returns expiration dates on a single underlying
 }
 \examples{
 \dontrun{

@@ -5,8 +5,16 @@ Version: 1.0
 Date: 2020-02-27
 Author: person("Ryan", "Walton", email = "ryanbwalton.57@gmail.com", role = c("aut", "cre"))
 Maintainer: Ryan Walton <ryanbwalton.57@gmail.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: This package provides R functions that allow for easy interaction with Ally Invest's API. 
+             Users can easily check their account holdings, get recent news headlines on specific stocks, and review
+             their recent order history. Note: some functions require an active trading account with Ally Invest, as well
+             authentication keys given from the Ally Invest API developers. However, there are functions that do not require
+             any authentication.
+Imports: ROAuth,
+         RJSONIO,
+         httr,
+         xml2,
+         tibble
 License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true

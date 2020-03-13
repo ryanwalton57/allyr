@@ -1,5 +1,5 @@
-#' @title Returns the current market time
-#' @description Some placeholder
+#' @title GetMarketTime
+#' @description Returns the current market time
 #' @export
 #' @return A tibble containing the symbol, with last, bid, and ask prices.
 #' @import tibble

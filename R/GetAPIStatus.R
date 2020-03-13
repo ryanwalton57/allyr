@@ -1,5 +1,5 @@
-#' @title Returns the API status
-#' @description Some placeholder
+#' @title GetAPIStatus
+#' @description Returns the API status
 #' @export
 #' @return A message containing the API status
 #' @import httr

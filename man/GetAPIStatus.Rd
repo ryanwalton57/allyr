@@ -2,7 +2,7 @@
 % Please edit documentation in R/GetAPIStatus.R
 \name{GetAPIStatus}
 \alias{GetAPIStatus}
-\title{Returns the API status}
+\title{GetAPIStatus}
 \usage{
 GetAPIStatus()
 }
@@ -10,7 +10,7 @@ GetAPIStatus()
 A message containing the API status
 }
 \description{
-Some placeholder
+Returns the API status
 }
 \examples{
 \dontrun{

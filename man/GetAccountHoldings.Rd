@@ -2,7 +2,7 @@
 % Please edit documentation in R/GetAccountHoldings.R
 \name{GetAccountHoldings}
 \alias{GetAccountHoldings}
-\title{Returns current account holdings}
+\title{GetAccountHoldings}
 \usage{
 GetAccountHoldings(APIKeys, acctNum)
 }
@@ -15,7 +15,7 @@ GetAccountHoldings(APIKeys, acctNum)
 A tibble containing curret account holdings for the account passed..
 }
 \description{
-Some placeholder
+Returns information on your current account holdings.
 }
 \examples{
 \dontrun{

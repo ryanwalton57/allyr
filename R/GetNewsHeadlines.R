@@ -1,11 +1,14 @@
-#' @title Returns news articles based on symbol and dates
-#' @description Some placeholder
+#' @title GetNewsHeadlines
+#' @description Returns news articles based on symbol and dates
 #' @export
 #' @param authKeys A vector containing API keys (order: cKey, cSecret, oKey, oSecret).
 #' @param symbol A ticker
 #' @param maxhits The number of hits to display
 #' @param endDate The end date, passed as two-digit month and two digit year, separated by a '/' (mm/dd)
 #' @return A tibble containing news headlines from todays date to \code{enddate}
+#' @import ROAuth
+#' @import tibble
+#' @import xml2
 #' @examples
 #' \dontrun{
 #' GetNewsHeadlines(APIKeys, "aapl", "10", "02/27")
