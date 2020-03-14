@@ -10,7 +10,7 @@ GetAPIVersion()
 A character string containing the API version
 }
 \description{
-Returns the API verion
+Returns the API verion.
 }
 \examples{
 \dontrun{

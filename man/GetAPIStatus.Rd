@@ -10,7 +10,7 @@ GetAPIStatus()
 A message containing the API status
 }
 \description{
-Returns the API status
+Returns the API status.
 }
 \examples{
 \dontrun{

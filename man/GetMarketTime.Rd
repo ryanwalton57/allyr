@@ -10,7 +10,7 @@ GetMarketTime()
 A tibble containing the symbol, with last, bid, and ask prices.
 }
 \description{
-Returns the current market time
+Returns the current market time.
 }
 \examples{
 \dontrun{

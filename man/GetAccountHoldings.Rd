@@ -15,7 +15,7 @@ GetAccountHoldings(APIKeys, acctNum)
 A tibble containing curret account holdings for the account passed..
 }
 \description{
-Returns information on your current account holdings.
+Returns information on your current account holdings.  Requires API keys (in specific order). See help for more info.
 }
 \examples{
 \dontrun{

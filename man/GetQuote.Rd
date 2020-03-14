@@ -15,7 +15,7 @@ GetQuote(APIKeys, symbol)
 A tibble containing the symbol, with last, bid, and ask prices.
 }
 \description{
-Returns market quote (last, bid, ask) on a single stock
+Returns market quote (last, bid, ask) on a single stock. Requires API keys (in specific order). See help for more info.
 }
 \examples{
 \dontrun{

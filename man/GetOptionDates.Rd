@@ -15,7 +15,7 @@ GetOptionDates(APIKeys, symbol)
 A tibble containing available option expiration dates and days to expiration
 }
 \description{
-Returns expiration dates on a single underlying
+Returns expiration dates on a single underlying.  Requires API keys (in specific order). See help for more info.
 }
 \examples{
 \dontrun{

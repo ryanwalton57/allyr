@@ -1,5 +1,5 @@
 #' @title GetNewsHeadlines
-#' @description Returns news articles based on symbol and dates
+#' @description Returns news articles based on symbol and dates.  Requires API keys (in specific order). See help for more info.
 #' @export
 #' @param APIKeys A vector containing API keys (order: cKey, cSecret, oKey, oSecret).
 #' @param symbol A ticker

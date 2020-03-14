@@ -1,5 +1,5 @@
 #' @title GetOrders
-#' @description Returns recent orders
+#' @description Returns recent orders. Requires API keys (in specific order). See help for more info.
 #' @export
 #' @param APIKeys A character vector containing API keys (order: cKey, cSecret, oKey, oSecret).
 #' @param acctNum Your Ally Invest account number

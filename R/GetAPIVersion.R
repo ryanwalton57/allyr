@@ -1,5 +1,5 @@
 #' @title GetAPIVersion
-#' @description Returns the API verion
+#' @description Returns the API verion.
 #' @export
 #' @return A character string containing the API version
 #' @import xml2

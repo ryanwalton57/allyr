@@ -15,7 +15,7 @@ GetOrders(APIKeys, acctNum)
 A tibble containing information on recent orders
 }
 \description{
-Returns recent orders
+Returns recent orders. Requires API keys (in specific order). See help for more info.
 }
 \examples{
 \dontrun{

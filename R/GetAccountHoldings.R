@@ -1,5 +1,5 @@
 #' @title GetAccountHoldings
-#' @description Returns information on your current account holdings.
+#' @description Returns information on your current account holdings.  Requires API keys (in specific order). See help for more info.
 #' @export
 #' @param APIKeys A vector containing API keys (order: cKey, cSecret, oKey, oSecret).
 #' @param acctNum An Ally Invest account number.

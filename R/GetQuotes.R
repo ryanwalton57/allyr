@@ -1,5 +1,5 @@
 #' @title GetQuote
-#' @description Returns market quote (last, bid, ask) on a single stock
+#' @description Returns market quote (last, bid, ask) on a single stock. Requires API keys (in specific order). See help for more info.
 #' @export
 #' @param APIKeys A vector containing API keys (order: cKey, cSecret, oKey, oSecret).
 #' @param symbol The underlying's symbol

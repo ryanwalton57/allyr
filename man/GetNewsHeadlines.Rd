@@ -19,7 +19,7 @@ GetNewsHeadlines(APIKeys, symbol, maxhits, enddate)
 A tibble containing news headlines from today's date to \code{enddate}
 }
 \description{
-Returns news articles based on symbol and dates
+Returns news articles based on symbol and dates.  Requires API keys (in specific order). See help for more info.
 }
 \examples{
 \dontrun{
