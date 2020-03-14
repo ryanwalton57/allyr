@@ -7,16 +7,16 @@
 GetNewsHeadlines(APIKeys, symbol, maxhits, enddate)
 }
 \arguments{
+\item{APIKeys}{A vector containing API keys (order: cKey, cSecret, oKey, oSecret).}
+
 \item{symbol}{A ticker}
 
 \item{maxhits}{The number of hits to display}
 
-\item{authKeys}{A vector containing API keys (order: cKey, cSecret, oKey, oSecret).}
-
-\item{endDate}{The end date, passed as two-digit month and two digit year, separated by a '/' (mm/dd)}
+\item{endDate}{The end date, passed as two-digit month and two digit day, separated by a '/' (mm/dd)}
 }
 \value{
-A tibble containing news headlines from todays date to \code{enddate}
+A tibble containing news headlines from today's date to \code{enddate}
 }
 \description{
 Returns news articles based on symbol and dates
