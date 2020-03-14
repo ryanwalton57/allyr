@@ -8,7 +8,7 @@
 #' @import tibble
 #' @examples
 #' \dontrun{
-#' GetOptionDates(APIKeys, "XYZ"
+#' GetOptionDates(APIKeys, "XYZ")
 #' }
 #'
 

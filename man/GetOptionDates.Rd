@@ -19,7 +19,7 @@ Returns expiration dates on a single underlying
 }
 \examples{
 \dontrun{
-GetOptionDates(APIKeys, "XYZ"
+GetOptionDates(APIKeys, "XYZ")
 }
 
 }
