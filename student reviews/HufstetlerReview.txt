@@ -1,0 +1,35 @@
+--Review Categories--
+- Accuracy
+  - Are the results accurate?
+  - Is it clear how the results were computed?
+
+- Compilation
+  - Did the analytic work? (i.e. install correctly, startup correctly)
+  - Were errors encountered when executing code according to the documentation?
+
+- Ease of use
+  - Is it clear how to use the analytic? (i.e. is the documentation clear)
+  - Are the visualizations/plots interpretable?
+  
+  
+  
+--Rubric--
+- Outstanding – ready to publish/deploy (50 pts)
+  - All proposal tasks completed
+  - Documentation is thorough and clear
+  - No errors or warnings during build/use
+
+- Excellent – very little rework required (45 pts)
+  - Few proposal tasks incomplete
+  - Documentation is clear and mostly complete
+  - Minor errors or warnings during build/use
+
+- Satisfactory – extensive rework required (40 pts)
+  - Several proposal tasks incomplete
+  - Documentation is limited and/or poorly written
+  - Severe errors during build or in use
+
+- Unsatisfactory – complete restart required (35 pts)
+  - Little progress made on proposal tasks
+  - Little to no documentation
+  - Cannot be compiled, unusable
