@@ -1,0 +1,64 @@
+#####################
+# Review Categories #
+#####################
+
+- Accuracy
+  - Are the results accurate?
+    # Ryan you clever fellow. I am unable to verify if the functions actually work
+      because I'm not going to set up an investment account.
+  - Is it clear how the results were computed?
+    # From the sample provided in the README.md file, it appears that all the
+      functions work, given the user has an investment account.
+
+- Compilation
+  - Did the analytic work? (i.e. install correctly, startup correctly)
+    # The package loads correctly and the commands work right out of the box, with
+      one excpetion:
+  - Were errors encountered when executing code according to the documentation?
+    # The function allyr::GetMarketTimes() threw an error because I was running
+      {rlang} 0.4.2, but 0.4.5 is required. One thing you may want to add though
+      is a list of test functions. When I ran devtools::test(), no test infrastructure
+      was detected.
+
+- Ease of use
+  - Is it clear how to use the analytic? (i.e. is the documentation clear)
+    # The package seems to be really useful for people who have an Ally investment
+      account. The documentation gives a list of functions and an example of each
+      being executed.
+  - Are the visualizations/plots interpretable?
+    # There are no visualizations or plots, but the outputs are in easy to read
+      tables.
+
+##############
+# Assessment #
+##############
+
+Based on the rubric below, I have to assess this package as Outstanding for the following
+reasons:
+ - All tasks were completed as far as I can tell, I couldn't find your proposal documents
+ - The README gives users a nice list of the functions they can run and the expected outputs
+ - After updating {rlang}, I encountered no errors in installation or building 
+
+##########
+# Rubric #
+##########
+
+- Outstanding – ready to publish/deploy (50 pts)
+  - All proposal tasks completed
+  - Documentation is thorough and clear
+  - No errors or warnings during build/use
+
+- Excellent – very little rework required (45 pts)
+  - Few proposal tasks incomplete
+  - Documentation is clear and mostly complete
+  - Minor errors or warnings during build/use
+
+- Satisfactory – extensive rework required (40 pts)
+  - Several proposal tasks incomplete
+  - Documentation is limited and/or poorly written
+  - Severe errors during build or in use
+
+- Unsatisfactory – complete restart required (35 pts)
+  - Little progress made on proposal tasks
+  - Little to no documentation
+  - Cannot be compiled, unusable
